@@ -12,6 +12,7 @@ const Navbardata = () => {
                     <Nav.Link as={Link} to="/">Home</Nav.Link>
                     <Nav.Link as={Link} to="/courses">Courses</Nav.Link>
                     <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                    <Nav.Link as={Link} to="/register">Register</Nav.Link>
                 </Nav>
                 <Form className='d-flex'>
                 <FormControl type='search' placeholder='Search course' className='me-2'/>
